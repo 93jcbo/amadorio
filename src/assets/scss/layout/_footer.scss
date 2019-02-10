@@ -1,0 +1,73 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Footer */
+
+	#footer {
+		@include vendor('background-image', 'url("../images/dance.png")');
+		@include vendor('display', 'flex');
+		flex-direction: column;
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		background-size: auto 75%;
+		background-attachment:fixed;
+		border-bottom: 0 !important;
+		position: relative;
+
+		&:after {
+			@include vendor('transition', 'opacity #{_duration(workTitle)} ease');
+			@include vendor('transition-delay', '0.75s');
+			@include vendor('pointer-events', 'none');
+			background-color: _palette(bg);
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.85;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+		> * {
+			z-index: 2;
+		}
+
+		.copyright {
+			font-size: 0.8em;
+			list-style: none;
+			padding-left: 0;
+			text-align: right;
+			margin:0;
+
+			li {
+				border-left: solid 1px _palette(border);
+				color: _palette(highlight);
+				display: inline-block;
+				line-height: 1;
+				margin-left: 1em;
+				padding-left: 1em;
+
+				&:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			.copyright {
+				li {
+					display: block;
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+					line-height: inherit;
+				}
+			}
+		}
+	}
