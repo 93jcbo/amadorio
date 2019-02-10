@@ -19,11 +19,11 @@ const About = (props) => (
               <div className="inner grid-wrapper">
                   <div className="col-12">
                     <header className="major">
-                        <h1>Hello again,<br />I'm still Jacob</h1>
+                        <h1>I'm all about learning</h1>
                     </header>
 
-                    <p>I graduated from Rice University with a B.A. in Cognitive Science and specialized in Human-Computer Interaction. As a CogSci student, I took advanced classes in Psychology, Philosophy, Neuroscience, Linguistics, and Computer Science. With my specialization, I learned about the psychology behind user experiences and how to study users to improve UI designs. Since graduating, I have continued to learn about the newest findings in Human-Computer Interaction and UX Design as a member of The Interaction Design Foundation. </p>
-                    <p>An advocate for HCI and UX, my goal is to educate people on why user-centered design is important. I’ve created training guides, proposed new web processes, and taught company workshops to achieve this goal. I believe that knowledge and understanding will go further when you can share it with those around you. This is how I do my part to create ethical and helpful user experiences.</p>
+                    <p>I graduated from Rice University with a B.A. in Cognitive Science and specialized in Human-Computer Interaction. I took advanced classes in Psychology, Philosophy, Neuroscience, Linguistics, and Computer Science. I learned about the psychology of user experiences and how to study users to improve UI design.  As a member of The Interaction Design Foundation, I continue to learn about the trends in HCI and UX.</p>
+                    <p>An advocate for HCI and UX, my goal is to educate people on why user-centered design is important. I’ve created training guides, proposed new web processes, and taught company workshops. Knowledge and understanding will go further when you can share it with those around you. I do my part to create ethical and useful experiences by helping those around me be better designers.</p>
                   </div>
               </div>
           </section>
@@ -33,8 +33,8 @@ const About = (props) => (
                   <header className="major">
                       <h2>Colorblind Artist</h2>
                   </header>
-                    <p>One of my flaws is also one of my greatest strengths. I am red/green colorblind so I have trouble distinguishing between two colors if they are not well saturated or are too similar in hue. My designs therefore will always have high contrast. I act as my own colorblind persona.</p>
-                    <p>As an artist, I began by doing simple two- or three-color woodcut relief prints. Some of those woodcut are displayed on this website. As I started to create more traditional Mexican folk art, I realized I could use very bright, contrasting colors. My love of skulls, along with Houston's Art Car scene, culminated in me creating my second art car.</p>
+                    <p>One of my flaws is also one of my greatest strengths. I am red/green colorblind, so I have trouble distinguishing between two colors if they are not well saturated or are too similar in hue. My designs will always have high contrast, because I act as my own colorblind persona.</p>
+                    <p>As an artist, I began by doing simple two- or three-color woodcut relief prints. Some of those woodcuts are on this website. As I started to create more traditional Mexican folk art, I realized I could use very bright, contrasting colors. My love of skulls, along with Houston's Art Car scene, culminated in me creating my second art car.</p>
                   </div>
               </div>
               <span className="image main"><img src={artcar} alt="" /></span>

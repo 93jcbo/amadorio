@@ -8,7 +8,7 @@ const Banner = (props) => (
                   <h1>Hi, I'm Jacob&nbsp;Amador</h1>
               </header>
               <div className="content">
-                  <p>I strive for efficient Human-Computer Interaction.</p>
+                  <p>Let's create efficient Human-Computer Interaction.</p>
               </div>
             </div>
         </div>

@@ -31,8 +31,13 @@ class HomeIndex extends React.Component {
                     <section id="bioIntro">
                         <div className="inner grid-wrapper">
                             <div className="col-12">
-                              <p>I’m a Graphic/Web Designer at Satori Marketing in Houston, TX. I specialize in making websites better using my skills as a Designer, WordPress Developer, and Web Accessibility Specialist.</p>
+                              <p>I’m a Designer in Houston, TX. I have many skills and talents. My specialty is designing websites and my passion is to educate others about UX. </p>
+                            </div>
+                            <div className="col-6">
                               <Link to="/about" className="button special fit">Get to know me</Link>
+                            </div>
+                            <div className="col-6">
+                              <a href="/about" target="__blank" className="button special fit">Download my resume</a>
                             </div>
                         </div>
                     </section>
