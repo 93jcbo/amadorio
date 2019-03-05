@@ -7,12 +7,12 @@ import Tiles from '../components/Tiles'
 import WorkTitle from '../components/WorkTitle'
 
 import pic08 from '../assets/images/catrinoso01.jpg'
-import pic09 from '../assets/images/catrinoso03.jpg'
-import pic10 from '../assets/images/catrinoso04.png'
+import pic09 from '../assets/images/catrinoso02.jpg'
+import pic10 from '../assets/images/catrinoso03.jpg'
 
 const banner = {
   clientName: 'Catrinoso',
-  clientDesc: 'Projects that I’ve worked on as a freelancer.',
+  clientDesc: 'An independent designer with a desire to help.',
   clientRoles:'Graphic\u00A0Designer, Web\u00A0Designer',
   clientTime:'2016-Present',
   clientId: 'catrin'
@@ -31,9 +31,9 @@ const Catrinoso = (props) => (
             <section id="one" className="clientIntro">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Spreading good design</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>I know firsthand the importance of good design. If something is not designed well such as a business card, website, or flyer, your brand or company is perceived to be untrustworthy. Unfortunately, small businesses, artists, or individuals starting out don’t have the money to pay a design agency and their instincts for design often betray them. Observing this obstacle, I decided to create Catrinoso and provide design services for a nominal, pay-what-you-can fee. In the end, my goal is to give the power of design so that they may grow to be successful.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -44,9 +44,9 @@ const Catrinoso = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>User centered graphic design</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>One of my favorite clients has been the HUE (Houston Urban Experience) Mural Festival. I’ve worked with HUE for two years as a graphic designer and I try to use my knowledge of UX to my advantage. When designing the map each year I get a list of artists, mural locations, events, and sponsors. I take that information, think of myself as a festival goer and how I would need the map to be organized. Knowing that people will be walking between locations, I design the map to be folded down to pocket size. When making social media posts, graphics are colorful and minimal with large fonts to grab attention.</p>
                         </div>
                     </div>
                 </section>
@@ -57,9 +57,9 @@ const Catrinoso = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Setting up websites for the future</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Sometimes I get to develop the websites I design for clients. I use this opportunity to increase my skills as a web developer and re-learn to the most current technologies and tools. For example, for the Free Radicals, a jazz collective, I created their website using a static site generator on Node.js. I do this not only for my education, but so that a client’s website will remain up-to-date for the following years to come.</p>
                         </div>
                     </div>
                 </section>
@@ -70,9 +70,9 @@ const Catrinoso = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Teaching clients to be better designers</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>I understand that not all projects allow room in the budget for a professional designer. That’s why I’ll help clients understand what they can do to create collateral for themselves. For graphic designs, I include all source files upon delivery. The project come with a style guide so that the clients know the importance of consistency. For the Free Radicals, I included generic, commented HTML templates in their final product. This way they could create more pages as they needed them.</p>
                         </div>
                     </div>
                 </section>

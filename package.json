@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "ajv": "^6.8.1",
     "fs": "0.0.1-security",
     "gatsby": "^2.0.76",
     "gatsby-plugin-manifest": "^2.0.9",

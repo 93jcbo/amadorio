@@ -1,18 +1,17 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import Tiles from '../components/Tiles'
 import WorkTitle from '../components/WorkTitle'
 
-import pic08 from '../assets/images/satori01.png'
+import pic08 from '../assets/images/satori01.jpg'
 import pic09 from '../assets/images/satori02.jpg'
 import pic10 from '../assets/images/satori03.jpg'
 
 const banner = {
   clientName: 'Satori Marketing',
-  clientDesc: 'An up and coming full service marketing agency.',
+  clientDesc: 'A hungry branding, communications, and marketing agency.',
   clientRoles:'Graphic/Web\u00A0Designer, Web\u00A0Accessibility Specialist, WordPress\u00A0Developer',
   clientTime:'2018-Present',
   clientId: 'satori'
@@ -33,7 +32,7 @@ const Satori = (props) => (
                     <header className="major">
                         <h2>Status at Satori</h2>
                     </header>
-                    <p>Satori is a growing marketing agency that moves at a fast pace with projects often expected to have a quick turnaround. Before I joined, they depended on freelance web developers to design and build client websites. I was brought on because they needed someone to work at their pace in house. Since I joined Satori, I have introduced a UX focused design method, helped create an SEO service plan, and established the use of measurable performance metrics.</p>
+                    <p>Satori is a growing marketing agency that moves at a fast pace with projects often expected to have a quick turnaround. Before I joined, they depended on freelance web developers to design and build client websites. I came on because they needed someone to work at their pace in-house. I have introduced a UX-conscious design method, helped create an SEO service plan, and established the use of measurable performance metrics.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -46,7 +45,7 @@ const Satori = (props) => (
                             <header className="major">
                                 <h3>Beginning at full speed</h3>
                             </header>
-                            <p>I began my first day with a lengthy to-do list. Much of my initial work was troubleshooting websites and fixing bugs before the sites were launched. Sometimes all that was needed was a landing page such as Pretty Little Petal. Whatever the web project, I used my CSS skills to make sure websites functioned properly on mobile and were responsive. On occasion I would create printed materials such as flyers and banners or design emails in Constant Contact or Mail Chimp. I was doing all types of design.</p>
+                            <p>I began my first day with a lengthy to-do list. Much of my initial work was troubleshooting websites and fixing bugs before the sites were launched. Sometimes all that was needed was a landing page such as Pretty Little Petal. Whatever the web project, I used my CSS skills to make sure websites functioned on mobile and were responsive. On occasion I would create printed materials such as flyers and banners or design emails in Constant Contact or Mail Chimp. I was doing all types of design.</p>
                         </div>
                     </div>
                 </section>

@@ -22,7 +22,7 @@
 				background-position: center center;
 				background-size: cover;
 				border-radius: 0;
-				display: block;
+				display: flex;
 				position: relative;
 				width: 30%;
 
@@ -30,6 +30,7 @@
 					border-radius: 0;
 					display: block;
 					width: 100%;
+					align-self: center;
 				}
 
 				&:before {

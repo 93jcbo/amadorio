@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const BannerLanding = (props) => (
-    <section id="banner" className={`${props.banner.clientId}`+' port'}>
+    <section id="banner" className={`${props.banner.clientId}`+` port`}>
         <div className="inner grid-wrapper">
             <div className="col-7">
               <header className="major">

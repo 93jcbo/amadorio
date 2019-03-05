@@ -17,7 +17,7 @@
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
-		height: 3.25em;
+		height:auto;
 		left: 0;
 		letter-spacing: _font(letter-spacing-alt);
 		line-height: 3.25em;
@@ -51,7 +51,6 @@
 
 			&:hover {
 				svg {
-					padding:.875em .75em 0 .75em;
 					fill: _palette(highlight);
 				}
 			}
@@ -66,9 +65,11 @@
 		nav {
 			@include vendor('display', 'flex');
 			@include vendor('justify-content', 'flex-end');
+			@include vendor('align-items', 'center');
 			@include vendor('flex-grow', '1');
 			height: inherit;
 			line-height: inherit;
+
 
 			a {
 				border: 0;
@@ -181,11 +182,10 @@
 		}
 
 		@include breakpoint(small) {
-			height: 2.75em;
 			line-height: 2.75em;
 
 			.logo {
-				padding: 0 1em;
+				max-width: 170px;
 			}
 
 			nav {
@@ -229,7 +229,6 @@
 						padding-right: 0 !important;
 						text-indent: 5em;
 						white-space: nowrap;
-						width: 5em;
 
 						&:before, &:after {
 							right: 0;

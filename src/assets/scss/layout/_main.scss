@@ -46,6 +46,9 @@
 					background-color: _palette(highlight);
 					color: _palette(bg);
 				}
+				@include breakpoint(small){
+					margin: 1em 0;
+				}
 			}
 
 			&.aboutFun{
@@ -63,6 +66,16 @@
 				margin: 0;
 				width: 100%;
 
+				@include breakpoint(medium) {
+					background-size: 70%;
+					background-position: 40vw center;
+				}
+
+				@include breakpoint(small) {
+					background-size: 100%;
+					background-position: 30vw center;
+				}
+
 				&:after {
 					@include vendor('transition', 'opacity #{_duration(banner)} ease');
 					@include vendor('transition-delay', '0.75s');
@@ -77,6 +90,7 @@
 					top: 0;
 					width: 100%;
 					z-index: 1;
+
 				}
 
 				h2{
@@ -94,12 +108,56 @@
 					color:_palette(bg);
 					margin: 0;
 					width: 45%;
+					@include breakpoint(medium) {
+						width: 70%;
+					}
+					@include breakpoint(small) {
+						width: 90%;
+					}
+					@include breakpoint(xsmall) {
+						width: 98%;
+					}
+					@include breakpoint(xsmall) {
+						width: 100%;
+						margin-left: 0%;
+					}
 				}
 				span.image{
 					width: 45%;
 					margin: 0;
 					z-index: 2;
+					@include breakpoint(medium) {
+						width: 70%;
+					}
+					@include breakpoint(small) {
+						width: 90%;
+					}
+					@include breakpoint(xsmall) {
+						width: 98%;
+					}
+					@include breakpoint(xsmall) {
+						width: 100%;
+						margin-left: 0%;
+					}
+				}
 			}
+
+			@include breakpoint(medium) {
+				width: 75%;
+				margin-left: 25%;
+			}
+			@include breakpoint(small) {
+				width: 90%;
+				margin-left: 10%;
+			}
+			@include breakpoint(xsmall) {
+				width: 98%;
+				margin-left: 2%;
+			}
+
+			@include breakpoint(xsmall) {
+				width: 100%;
+				margin-left: 0%;
 			}
 		}
 
@@ -139,6 +197,12 @@
 					text-align: right;
 					margin-bottom: 0;
 				}
+			}
+			@include breakpoint(medium) {
+				background-size: 50%;
+			}
+			@include breakpoint(small) {
+				background-size: 85%;
 			}
 		}
 	}

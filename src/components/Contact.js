@@ -8,14 +8,14 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-file-pdf-o"></span>
                         <h3>Resume</h3>
-                        <a href="#">Jacob-Amador-Resume.pdf</a>
+                        <a href={withPrefix('/static/Jacob-Amador-Resume.pdf')}>Jacob-Amador-Resume.pdf</a>
                     </div>
                 </section>
                 <section className="">
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">jacob@amadorio.com</a>
+                        <a href="mailto:93jcbo@gmail.com">93jcbo@gmail.com</a>
                     </div>
                 </section>
                 <section className="">

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Logo from '../assets/svg/LogoSvg'
 
-import jaLogo from '../assets/images/logo.png'
 
 const Header = (props) => (
     <header id="header" className="alt">

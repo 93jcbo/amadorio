@@ -5,11 +5,8 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 import Tiles from '../components/Tiles'
 import WorkTitle from '../components/WorkTitle'
+import { withPrefix } from 'gatsby-link'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -37,7 +34,7 @@ class HomeIndex extends React.Component {
                               <Link to="/about" className="button special fit">Get to know me</Link>
                             </div>
                             <div className="col-6">
-                              <a href="/about" target="__blank" className="button special fit">Download my resume</a>
+                              <a href={withPrefix('/static/Jacob-Amador-Resume.pdf')} className="button special fit">Download my resume</a>
                             </div>
                         </div>
                     </section>
