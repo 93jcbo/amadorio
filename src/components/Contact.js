@@ -8,7 +8,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-file-pdf-o"></span>
                         <h3>Resume</h3>
-                        <a href={withPrefix('/static/Jacob-Amador-Resume.pdf')}>Jacob-Amador-Resume.pdf</a>
+                        < a href="https://www.dropbox.com/s/eydkq64gpgzamsu/Jacob-Amador-Resume.pdf?dl=0" target="__blank">Jacob-Amador-Resume.pdf</a>
                     </div>
                 </section>
                 <section className="">
