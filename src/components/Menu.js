@@ -18,8 +18,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/clickmd">ClickMD</Link></li>
             </ul>
             <ul className="actions vertical">
-                <li > <a href="https://www.dropbox.com/s/eydkq64gpgzamsu/Jacob-Amador-Resume.pdf?dl=0" target="__blank"
-                onClick={props.onToggleMenu} className ="button special fit" >Resume</a></li >
+                < li > < a href = "https://www.dropbox.com/s/ky1ukdten398zc6/Jacob-Amador-Resume.pdf?dl=0" target = "__blank" onClick={props.onToggleMenu} className ="button special fit" >Resume</a></li >
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>

@@ -34,7 +34,7 @@ class HomeIndex extends React.Component {
                               <Link to="/about" className="button special fit">Get to know me</Link>
                             </div>
                             <div className="col-6">
-                              <a href="https://www.dropbox.com/s/eydkq64gpgzamsu/Jacob-Amador-Resume.pdf?dl=0" target="__blank" className="button special fit">Download my resume</a>
+                              < a href = "https://www.dropbox.com/s/ky1ukdten398zc6/Jacob-Amador-Resume.pdf?dl=0" target = "__blank" className = "button special fit" > Download my resume < /a>
                             </div>
                         </div>
                     </section>
